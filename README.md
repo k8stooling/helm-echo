@@ -1,6 +1,6 @@
 This is a very simple helm chart to deploy a quick echo service with jmalloc/echo-server.
 
-It is setting securityContext and resources by default, so that you spare some iterations on restricted environments.
+It is setting securityContext, resources and networkpolicy by default, so that you spare some iterations on restricted environments.
 
 A simple values file looks like this to enable ingress:
 
