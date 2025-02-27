@@ -1,0 +1,7 @@
+# Ignore all yaml files
+*.yaml
+*.yml
+
+# Except Chart.yaml and values.yaml
+!Chart.yaml
+!values.yaml
