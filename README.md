@@ -21,3 +21,11 @@ ingress:
   tls: true
 
 ```
+
+**Installation**
+
+```bash
+
+helm upgrade --install oci://ghcr.io/k8stooling/charts/echo --version 2025.01.27
+
+```
